@@ -4,13 +4,13 @@ box-sizing: border-box;
   margin: 0;
 }
 
-html, body, main {
+html, body {
   width: 100vw;
   height: 100vh;
 }
 
 main {
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
 }
 
@@ -18,8 +18,7 @@ main {
   width: 10vw;
   height: 100vh;
   background-color: lime;
-  margin-right: 10px;
-  position: sticky;
+  position: fixed;
 }
 
 #navbar h1 {
