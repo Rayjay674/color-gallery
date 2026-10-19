@@ -20,7 +20,7 @@ main {
   height: 100vh;
   background-color: lime;
   position: fixed;
-  margin-left: 0;
+  
 }
 
 #navbar h1 {
