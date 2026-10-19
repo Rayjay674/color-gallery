@@ -1,6 +1,4 @@
-
-* {
-  box-sizing: border-box;
+   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -17,8 +15,14 @@ main {
 
 #navbar {
   width: 100vw;
-  height: 5vh;
+  height: 10vh;
   background-color: lime;
+  margin-bottom: 5vh;
+  position: static;
+}
+
+#navbar h1 {
+    font-size: 1em;
 }
 
 .nav-link {
