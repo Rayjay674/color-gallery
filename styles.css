@@ -1,4 +1,5 @@
-   box-sizing: border-box;
+* {
+box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -14,11 +15,11 @@ main {
 }
 
 #navbar {
-  width: 100vw;
-  height: 10vh;
+  width: 10vw;
+  height: 100vh;
   background-color: lime;
-  margin-bottom: 5vh;
-  position: static;
+  margin-right: 10px;
+  position: sticky;
 }
 
 #navbar h1 {
