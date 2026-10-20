@@ -19,16 +19,18 @@ main {
   height: 100vh;
   background-color: #aaa;
   position: fixed;
-  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
 }
 
 #navbar h1 {
     font-size: 1em;
 }
 
-.nav-link {
-  color: black;
-  text-decoration: none;
+.page-button {
+  width: 5%;
+  height: 3%;
 }
 
 .hidden {
