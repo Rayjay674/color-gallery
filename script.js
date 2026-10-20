@@ -1,1 +1,1 @@
-const text = document.getElementById("hello-world")
+const mainPage = document.getElementById("hello-world")
