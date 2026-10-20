@@ -22,6 +22,7 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
+  overflow: hidden
 }
 
 #navbar h1 {
