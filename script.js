@@ -39,3 +39,7 @@ const switchPages = (btnId) => {
   pageArr[index2].style.display = "block";
   currentPage = pageArr[index2];
 }
+
+mainPageBtn.addEventListener("click", switchPages("title"));
+redPageBtn.addEventListener("click", switchPages("red"));
+
