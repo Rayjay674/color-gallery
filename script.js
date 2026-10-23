@@ -1,12 +1,21 @@
 const mainPageBtn = document.getElementById("title-btn");
 const mainPage = document.getElementById("title");
 const colors = ["title", "red", "orange", "yellow", "green", "blue", "purple", "pink", "monochrome"]
-const pages = {}
+const pages = [
+  {
+    id: "1",
+    color: "red",
+    html: document.getElementById("red"),
+    button: document.getElementById("
+  }
+]
 let selected = pageArr[0];
 let currentPage = pageArr[0]
 
 const getPages = () => {
-  colors.forEach((id) => {})
+  colors.forEach((id) => {
+    pages
+  })
 }
 
 const switchPages = (btnId) => {
