@@ -23,7 +23,7 @@ main {
   height: 100vh;
   background-color: #aaa;
   position: fixed;
-  display: none;
+  display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
   overflow: hidden;
