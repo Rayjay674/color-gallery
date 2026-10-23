@@ -7,10 +7,11 @@ box-sizing: border-box;
 html, body {
   width: 100vw;
   height: 100vh;
+  margin-left: 10vw
 }
 
 main {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
