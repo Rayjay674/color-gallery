@@ -43,6 +43,8 @@ main {
 }
 
 header {
+  width: 90vw;
+  height: 15vh;
   margin-left: 10vw;
   text-align: center;
   background: linear-gradient(red 0%, orange 11%, yellow 22%, green 33%, blue 44%, purple 55%, pink 66%, brown 77%, #c0c0c0 88%)
