@@ -1,6 +1,6 @@
-const gallery = document.getElementById("gallery");
+const gallery = document.getElementById("content");
 
-const buttons = [];
+const buttons = document.querySelectorAll(".btn");
 const colors = [
   {
     category: "red",
