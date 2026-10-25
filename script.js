@@ -15,3 +15,7 @@ new Card {
     this.height
   }
 }
+
+buttons.forEach((button) => {
+  button.addEventListener("click", 
+});
