@@ -1,6 +1,6 @@
 const gallery = document.getElementById("content");
 
-const buttons = document.querySelectorAll(".btn");
+const buttons = document.querySelectorAll(".page-btn");
 const colors = [
   {
     category: "red",
