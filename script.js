@@ -12,6 +12,6 @@ let currentPage = "main";
 
 new Card {
   constructor() {
-    
+    this.height
   }
 }
