@@ -16,6 +16,11 @@ new Card {
   }
 }
 
+const switchCards = (id) => {
+  gallery.innerHTML = "";
+  const selectedPage = id.replace(".", " ").replace("-btn", " ");
+}
+
 buttons.forEach((button) => {
-  button.addEventListener("click", 
+  button.addEventListener("click", switchCards(button.id));
 });
