@@ -1,3 +1,5 @@
+const gallery = document.getElementById("gallery");
+
 const buttons = [];
 const colors = [
   {
