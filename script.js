@@ -6,6 +6,7 @@ const colors = [
     hex: "#db2d43"
   },
 ];
+let currentPage = "main";
 
 new Card {
   constructor() {
