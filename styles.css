@@ -54,7 +54,7 @@ header {
 }
 
 #main-page ul {
-  font-size: 1em;
+  font-size: calc(1em / 2);
   list-style-type: none;
 }
 
