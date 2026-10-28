@@ -53,7 +53,7 @@ header {
   text-align: center;
 }
 
-#main-page li{
+#main-page ul {
   font-size: 5em;
   list-style-type: none;
 }
