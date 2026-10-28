@@ -12,17 +12,18 @@ let currentPage = "main";
 
 new Card {
   constructor() {
-    this.category
+    
   }
 
-  setCards(ctgr) {
-    
-    colors.forEach((category) => {}
+  makeCard {
+    const card = document.createElement("div");
+    card.classList.add("card")
+  }
 }
 
 const switchCards = (id) => {
   gallery.innerHTML = "";
-  const selected = id.replace(".", " ").replace("-btn", " ");
+  currentPage = id.replace(".", " ").replace("-btn", " ");
 }
 
 buttons.forEach((button) => {
