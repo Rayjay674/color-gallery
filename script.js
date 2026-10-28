@@ -11,8 +11,10 @@ const colors = [
 let currentPage = "main";
 
 new Card {
-  constructor() {
-    
+  constructor(category, name, hex) {
+    category, 
+    name, 
+    hex
   }
 
   makeCard {
@@ -24,6 +26,13 @@ new Card {
 const switchCards = (id) => {
   gallery.innerHTML = "";
   currentPage = id.replace(".", " ").replace("-btn", " ");
+  if (currentPage === "main") {
+    mainPage.style.display = "block";
+  } else {
+    const selected = colors.filter((item) => item.category === currentPage);
+    selected.forEach((item) => {
+      const card = new Card()
+    });
 }
 
 buttons.forEach((button) => {
