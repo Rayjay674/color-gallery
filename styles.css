@@ -53,9 +53,12 @@ header {
   text-align: center;
 }
 
-#main-page > ul > h1 {
-  font-size: 30px;
+#main-page ul {
   list-style-type: none;
+}
+
+#main-page > ul > h1 {
+  font-size: 1em;
 }
 
 #content {
