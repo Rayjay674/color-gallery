@@ -53,12 +53,27 @@ header {
   text-align: center;
 }
 
+#main-page h1:first-of-type {
+  font-size: 4em;
+}
+
 #main-page ul {
   list-style-type: none;
 }
 
-#main-page ul h1 {
-  font-size: 1em;
+#main-page ul li {
+  font-size: 1.7em;
+}
+
+#main-page .fact {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#main-page ul li p {
+  font-size: 1.2em;
 }
 
 #content {
