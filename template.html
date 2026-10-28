@@ -4,7 +4,85 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style></style>
+    <style>* {
+box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 90%;
+  height: 100%;
+  margin-left: 10vw;
+  position: sticky;
+  text-align: center;
+}
+
+#navbar {
+  width: 10vw;
+  height: 100vh;
+  background-color: #aaa;
+  position: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#navbar h1 {
+    font-size: 1em;
+}
+
+.page-button {
+  width: 25%;
+  height: 10%;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(red 0%, orange 11%, yellow 22%, green 33%, blue 44%, purple 55%, pink 66%, brown 77%, #c0c0c0 88%)
+}
+
+#main-page {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+#main-page ul {
+  list-style-type: none;
+}
+
+#main-page ul h1 {
+  font-size: 1em;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  width: 20%;
+  height: 10em;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3%;
+}</style>
     <script src="script.js" defer></script>
     <title>Color Gallery</title>
   </head>
