@@ -57,7 +57,7 @@ header {
   list-style-type: none;
 }
 
-#main-page > ul > h1 {
+#main-page ul h1 {
   font-size: 1em;
 }
 
