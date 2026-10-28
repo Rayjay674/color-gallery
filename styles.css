@@ -54,6 +54,9 @@ header {
 }
 
 .card {
+  width: 20%;
+  height: 10em;
   background-color: white;
   padding: 20px;
+  border-radius: 3%;
 }
