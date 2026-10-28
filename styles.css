@@ -53,8 +53,8 @@ header {
   text-align: center;
 }
 
-#main-page ul {
-  font-size: calc(1em / 2);
+#main-page > ul > h1 {
+  font-size: 30px;
   list-style-type: none;
 }
 
