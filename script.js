@@ -19,11 +19,13 @@ new Card {
 
   makeCard {
     const card = document.createElement("div");
-    card.classList.add("card")
+    card.classList.add("card");
   }
 }
 
-const switchCards = (id) => {
+const switchCards = () => {
+  const id = event.target.id;
+  mainPage.style.display = "none";
   gallery.innerHTML = "";
   currentPage = id.replace(".", " ").replace("-btn", " ");
   if (currentPage === "main") {
@@ -31,10 +33,10 @@ const switchCards = (id) => {
   } else {
     const selected = colors.filter((item) => item.category === currentPage);
     selected.forEach((item) => {
-      const card = new Card()
+      const card = new Card(item.category, item.name, item.hex);
     });
 }
 
 buttons.forEach((button) => {
-  button.addEventListener("click", switchCards(button.id));
+  button.addEventListener("click", switchCards);
 });
