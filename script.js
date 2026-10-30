@@ -10,24 +10,11 @@ const colors = [
 ];
 let currentPage = "main";
 
-new Card {
-  constructor(category, name, hex) {
-    category, 
-    name, 
-    hex
-  }
-
-  makeCard {
-    const card = document.createElement("div");
-    card.classList.add("card");
-  }
-}
-
 const switchCards = () => {
   const id = event.target.id;
   mainPage.style.display = "none";
   gallery.innerHTML = "";
-  currentPage = id.replace(".", " ").replace("-btn", " ");
+  currentPage = id.replace(".", " ").replace("-btn", " ").trim();
   if (currentPage === "main") {
     mainPage.style.display = "block";
   } else {
